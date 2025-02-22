@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Weather Finder",
+    "version": "1.0",
+    "description": "Enter a place and get the current weather",
+    "permissions": ["storage"],
+    "host_permissions": ["https://api.openweathermap.org/"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  

@@ -1,0 +1,37 @@
+body {
+    width: 270px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weatherResult, #forecastResult {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
